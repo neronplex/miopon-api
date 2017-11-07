@@ -1,0 +1,35 @@
+{
+    "name": "neronplex/miopon-api",
+    "description": "IIJmio coupon switch API client.",
+    "type": "library",
+    "keywords": ["IIJmio"],
+    "homepage": "https://github.com/neronplex/miopon-api",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "暖簾",
+            "email": "admin@neronplex.info",
+            "homepage": "https://www.neronplex.jp/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neronplex\\MioponApi\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Neronplex\\MioponApi\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
